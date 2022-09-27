@@ -1,0 +1,28 @@
+{
+  "name": "vueshare",
+  "version": "1.0.0",
+  "description": "vueShare",
+  "scripts": {
+    "client": "cd client && npm run serve",
+    "dev": "concurrently --names \"server,client\" \"npm run server --silent\" \"npm run client --silent\"",
+    "server": "nodemon server.js"
+  },
+  "author": "Des Albert",
+  "license": "ISC",
+  "main": "server.js",
+  "repository": "https://github.com/des-albert/imfluffy",
+  "dependencies": {
+    "apollo-server": "^2.25.2",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^8.6.0",
+    "graphql": "^15.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mongoose": "^5.13.7",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.12"
+  }
+}

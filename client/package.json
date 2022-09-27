@@ -1,0 +1,40 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.4.9",
+    "axios": "^0.21.1",
+    "core-js": "^3.16.2",
+    "md5": "^2.3.0",
+    "moment": "^2.29.1",
+    "prerender-spa-plugin": "^3.4.0",
+    "vue": "^2.6.14",
+    "vue-apollo": "^3.0.7",
+    "vue-router": "^3.5.2",
+    "vue2-dropzone": "^3.6.0",
+    "vuetify": "^2.5.8",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.13",
+    "@vue/cli-plugin-router": "~4.5.13",
+    "@vue/cli-plugin-vuex": "~4.5.13",
+    "@vue/cli-service": "~4.5.13",
+    "concurrently": "^5.3.0",
+    "sass": "~1.32.13",
+    "sass-loader": "^10.2.0",
+    "vue-cli-plugin-vuetify": "^2.4.2",
+    "vue-template-compiler": "^2.6.14",
+    "vuetify-loader": "^1.7.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

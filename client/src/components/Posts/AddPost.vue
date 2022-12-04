@@ -49,7 +49,7 @@
 
           <v-row>
             <v-flex xs12>
-              <v-select :rules="categoriesRules" v-model="categories" :items="['Cats', 'Dinos', 'Twitter', 'Random']" multiple label="Categories"> </v-select>
+              <v-select :rules="categoriesRules" v-model="categories" :items="['Cats', 'Dinos', 'Twitter', 'Tosser', 'Random']" multiple label="Categories"> </v-select>
             </v-flex>
           </v-row>
 

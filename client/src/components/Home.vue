@@ -16,7 +16,7 @@
           <v-btn class="secondary" to="/posts"> Explore posts</v-btn>
         </v-layout>
         <v-layout justify-center row>
-          <h3 class="mt-5">fluffy and moggy friendly !</h3>
+          <h3 class="mt-5">fluffy, moggy friendly and honest !</h3>
         </v-layout>
       </v-flex>
     </v-layout>
